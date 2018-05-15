@@ -1,0 +1,545 @@
+2018-05-15 16:09:15,914 INFO 58663 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 16:09:15,967 INFO 58663 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 16:09:15,967 INFO 58663 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 16:09:16,038 INFO 58663 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 16:09:16,042 INFO 58663 [egg-security] use csrf middleware
+2018-05-15 16:09:16,043 INFO 58663 [egg-security] use methodnoallow middleware
+2018-05-15 16:09:16,043 INFO 58663 [egg-security] use noopen middleware
+2018-05-15 16:09:16,044 INFO 58663 [egg-security] use nosniff middleware
+2018-05-15 16:09:16,046 INFO 58663 [egg-security] use xssProtection middleware
+2018-05-15 16:09:16,047 INFO 58663 [egg-security] use xframe middleware
+2018-05-15 16:09:16,048 INFO 58663 [egg-security] use dta middleware
+2018-05-15 16:09:16,048 INFO 58663 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 16:09:16,065 INFO 58663 [egg:core] dump config after load, 11ms
+2018-05-15 16:09:16,099 INFO 58663 [egg-watcher:app] watcher start success
+2018-05-15 16:09:16,108 INFO 58663 [egg:core] dump config after ready, 7ms
+2018-05-15 17:04:00,297 INFO 60126 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 17:04:00,347 INFO 60126 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 17:04:00,347 INFO 60126 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 17:04:00,436 INFO 60126 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 17:04:00,439 INFO 60126 [egg-security] use csrf middleware
+2018-05-15 17:04:00,440 INFO 60126 [egg-security] use methodnoallow middleware
+2018-05-15 17:04:00,441 INFO 60126 [egg-security] use noopen middleware
+2018-05-15 17:04:00,442 INFO 60126 [egg-security] use nosniff middleware
+2018-05-15 17:04:00,443 INFO 60126 [egg-security] use xssProtection middleware
+2018-05-15 17:04:00,444 INFO 60126 [egg-security] use xframe middleware
+2018-05-15 17:04:00,445 INFO 60126 [egg-security] use dta middleware
+2018-05-15 17:04:00,445 INFO 60126 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 17:04:00,461 INFO 60126 [egg:core] dump config after load, 9ms
+2018-05-15 17:04:00,483 INFO 60126 [egg-watcher:app] watcher start success
+2018-05-15 17:04:00,488 INFO 60126 [egg:core] dump config after ready, 2ms
+2018-05-15 17:04:29,246 INFO 60143 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 17:04:29,304 INFO 60143 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 17:04:29,304 INFO 60143 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 17:04:29,369 INFO 60143 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 17:04:29,372 INFO 60143 [egg-security] use csrf middleware
+2018-05-15 17:04:29,373 INFO 60143 [egg-security] use methodnoallow middleware
+2018-05-15 17:04:29,374 INFO 60143 [egg-security] use noopen middleware
+2018-05-15 17:04:29,375 INFO 60143 [egg-security] use nosniff middleware
+2018-05-15 17:04:29,376 INFO 60143 [egg-security] use xssProtection middleware
+2018-05-15 17:04:29,377 INFO 60143 [egg-security] use xframe middleware
+2018-05-15 17:04:29,377 INFO 60143 [egg-security] use dta middleware
+2018-05-15 17:04:29,378 INFO 60143 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 17:04:29,389 INFO 60143 [egg:core] dump config after load, 6ms
+2018-05-15 17:04:29,401 INFO 60143 [egg-watcher:app] watcher start success
+2018-05-15 17:04:29,406 INFO 60143 [egg:core] dump config after ready, 3ms
+2018-05-15 17:05:02,678 INFO 60327 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 17:05:02,975 INFO 60327 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 17:05:02,975 INFO 60327 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 17:05:03,040 INFO 60327 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 17:05:03,045 INFO 60327 [egg-security] use csrf middleware
+2018-05-15 17:05:03,046 INFO 60327 [egg-security] use methodnoallow middleware
+2018-05-15 17:05:03,047 INFO 60327 [egg-security] use noopen middleware
+2018-05-15 17:05:03,047 INFO 60327 [egg-security] use nosniff middleware
+2018-05-15 17:05:03,048 INFO 60327 [egg-security] use xssProtection middleware
+2018-05-15 17:05:03,048 INFO 60327 [egg-security] use xframe middleware
+2018-05-15 17:05:03,049 INFO 60327 [egg-security] use dta middleware
+2018-05-15 17:05:03,049 INFO 60327 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 17:05:03,070 INFO 60327 [egg:core] dump config after load, 14ms
+2018-05-15 17:05:03,097 INFO 60327 [egg-watcher:app] watcher start success
+2018-05-15 17:05:03,104 INFO 60327 [egg:core] dump config after ready, 5ms
+2018-05-15 17:05:46,171 INFO 60522 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 17:05:46,229 INFO 60522 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 17:05:46,229 INFO 60522 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 17:05:46,292 INFO 60522 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 17:05:46,294 INFO 60522 [egg-security] use csrf middleware
+2018-05-15 17:05:46,296 INFO 60522 [egg-security] use methodnoallow middleware
+2018-05-15 17:05:46,297 INFO 60522 [egg-security] use noopen middleware
+2018-05-15 17:05:46,297 INFO 60522 [egg-security] use nosniff middleware
+2018-05-15 17:05:46,298 INFO 60522 [egg-security] use xssProtection middleware
+2018-05-15 17:05:46,298 INFO 60522 [egg-security] use xframe middleware
+2018-05-15 17:05:46,299 INFO 60522 [egg-security] use dta middleware
+2018-05-15 17:05:46,299 INFO 60522 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 17:05:46,311 INFO 60522 [egg:core] dump config after load, 6ms
+2018-05-15 17:05:46,328 INFO 60522 [egg-watcher:app] watcher start success
+2018-05-15 17:05:46,336 INFO 60522 [egg:core] dump config after ready, 5ms
+2018-05-15 17:09:27,963 INFO 60745 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 17:09:28,017 INFO 60745 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 17:09:28,018 INFO 60745 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 17:09:28,082 INFO 60745 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 17:09:28,085 INFO 60745 [egg-security] use csrf middleware
+2018-05-15 17:09:28,086 INFO 60745 [egg-security] use methodnoallow middleware
+2018-05-15 17:09:28,086 INFO 60745 [egg-security] use noopen middleware
+2018-05-15 17:09:28,087 INFO 60745 [egg-security] use nosniff middleware
+2018-05-15 17:09:28,088 INFO 60745 [egg-security] use xssProtection middleware
+2018-05-15 17:09:28,089 INFO 60745 [egg-security] use xframe middleware
+2018-05-15 17:09:28,089 INFO 60745 [egg-security] use dta middleware
+2018-05-15 17:09:28,089 INFO 60745 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 17:09:28,103 INFO 60745 [egg:core] dump config after load, 8ms
+2018-05-15 17:09:28,126 INFO 60745 [egg-watcher:app] watcher start success
+2018-05-15 17:09:28,131 INFO 60745 [egg:core] dump config after ready, 3ms
+2018-05-15 17:09:34,073 INFO 60745 [egg-view-nunjucks] loading templates from ["/Users/hekai/egg-example/app/view"]
+2018-05-15 17:10:59,706 INFO 60939 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 17:10:59,757 INFO 60939 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 17:10:59,757 INFO 60939 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 17:10:59,844 INFO 60939 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 17:10:59,847 INFO 60939 [egg-security] use csrf middleware
+2018-05-15 17:10:59,848 INFO 60939 [egg-security] use methodnoallow middleware
+2018-05-15 17:10:59,849 INFO 60939 [egg-security] use noopen middleware
+2018-05-15 17:10:59,849 INFO 60939 [egg-security] use nosniff middleware
+2018-05-15 17:10:59,850 INFO 60939 [egg-security] use xssProtection middleware
+2018-05-15 17:10:59,850 INFO 60939 [egg-security] use xframe middleware
+2018-05-15 17:10:59,851 INFO 60939 [egg-security] use dta middleware
+2018-05-15 17:10:59,851 INFO 60939 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 17:10:59,881 INFO 60939 [egg:core] dump config after load, 25ms
+2018-05-15 17:10:59,915 INFO 60939 [egg-watcher:app] watcher start success
+2018-05-15 17:10:59,928 INFO 60939 [egg:core] dump config after ready, 5ms
+2018-05-15 17:11:41,892 INFO 60939 [egg-view-nunjucks] loading templates from ["/Users/hekai/egg-example/app/view"]
+2018-05-15 17:14:29,392 INFO 61023 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 17:14:29,483 INFO 61023 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 17:14:29,483 INFO 61023 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 17:14:29,548 INFO 61023 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 17:14:29,552 INFO 61023 [egg-security] use csrf middleware
+2018-05-15 17:14:29,554 INFO 61023 [egg-security] use methodnoallow middleware
+2018-05-15 17:14:29,555 INFO 61023 [egg-security] use noopen middleware
+2018-05-15 17:14:29,555 INFO 61023 [egg-security] use nosniff middleware
+2018-05-15 17:14:29,556 INFO 61023 [egg-security] use xssProtection middleware
+2018-05-15 17:14:29,556 INFO 61023 [egg-security] use xframe middleware
+2018-05-15 17:14:29,557 INFO 61023 [egg-security] use dta middleware
+2018-05-15 17:14:29,557 INFO 61023 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 17:14:29,573 INFO 61023 [egg:core] dump config after load, 11ms
+2018-05-15 17:14:29,593 INFO 61023 [egg-watcher:app] watcher start success
+2018-05-15 17:14:29,599 INFO 61023 [egg:core] dump config after ready, 3ms
+2018-05-15 17:14:36,366 INFO 61029 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 17:14:36,428 INFO 61029 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 17:14:36,428 INFO 61029 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 17:14:36,510 INFO 61029 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 17:14:36,518 INFO 61029 [egg-security] use csrf middleware
+2018-05-15 17:14:36,519 INFO 61029 [egg-security] use methodnoallow middleware
+2018-05-15 17:14:36,519 INFO 61029 [egg-security] use noopen middleware
+2018-05-15 17:14:36,519 INFO 61029 [egg-security] use nosniff middleware
+2018-05-15 17:14:36,520 INFO 61029 [egg-security] use xssProtection middleware
+2018-05-15 17:14:36,520 INFO 61029 [egg-security] use xframe middleware
+2018-05-15 17:14:36,520 INFO 61029 [egg-security] use dta middleware
+2018-05-15 17:14:36,520 INFO 61029 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 17:14:36,550 INFO 61029 [egg:core] dump config after load, 14ms
+2018-05-15 17:14:36,566 INFO 61029 [egg-watcher:app] watcher start success
+2018-05-15 17:14:36,575 INFO 61029 [egg:core] dump config after ready, 7ms
+2018-05-15 17:14:37,265 INFO 61033 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 17:14:37,307 INFO 61033 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 17:14:37,307 INFO 61033 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 17:14:37,352 INFO 61033 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 17:14:37,363 INFO 61033 [egg-security] use csrf middleware
+2018-05-15 17:14:37,364 INFO 61033 [egg-security] use methodnoallow middleware
+2018-05-15 17:14:37,365 INFO 61033 [egg-security] use noopen middleware
+2018-05-15 17:14:37,365 INFO 61033 [egg-security] use nosniff middleware
+2018-05-15 17:14:37,365 INFO 61033 [egg-security] use xssProtection middleware
+2018-05-15 17:14:37,366 INFO 61033 [egg-security] use xframe middleware
+2018-05-15 17:14:37,366 INFO 61033 [egg-security] use dta middleware
+2018-05-15 17:14:37,366 INFO 61033 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 17:14:37,378 INFO 61033 [egg:core] dump config after load, 7ms
+2018-05-15 17:14:37,391 INFO 61033 [egg-watcher:app] watcher start success
+2018-05-15 17:14:37,396 INFO 61033 [egg:core] dump config after ready, 3ms
+2018-05-15 17:22:22,813 INFO 61158 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 17:22:22,946 INFO 61158 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 17:22:22,946 INFO 61158 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 17:22:23,018 INFO 61158 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 17:22:23,023 INFO 61158 [egg-security] use csrf middleware
+2018-05-15 17:22:23,025 INFO 61158 [egg-security] use methodnoallow middleware
+2018-05-15 17:22:23,026 INFO 61158 [egg-security] use noopen middleware
+2018-05-15 17:22:23,028 INFO 61158 [egg-security] use nosniff middleware
+2018-05-15 17:22:23,028 INFO 61158 [egg-security] use xssProtection middleware
+2018-05-15 17:22:23,030 INFO 61158 [egg-security] use xframe middleware
+2018-05-15 17:22:23,030 INFO 61158 [egg-security] use dta middleware
+2018-05-15 17:22:23,030 INFO 61158 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 17:22:23,053 INFO 61158 [egg:core] dump config after load, 13ms
+2018-05-15 17:22:23,078 INFO 61158 [egg-watcher:app] watcher start success
+2018-05-15 17:22:23,084 INFO 61158 [egg:core] dump config after ready, 3ms
+2018-05-15 17:24:00,984 INFO 61185 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 17:24:01,040 INFO 61185 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 17:24:01,040 INFO 61185 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 17:24:01,093 INFO 61185 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 17:24:01,096 INFO 61185 [egg-security] use csrf middleware
+2018-05-15 17:24:01,097 INFO 61185 [egg-security] use methodnoallow middleware
+2018-05-15 17:24:01,098 INFO 61185 [egg-security] use noopen middleware
+2018-05-15 17:24:01,098 INFO 61185 [egg-security] use nosniff middleware
+2018-05-15 17:24:01,099 INFO 61185 [egg-security] use xssProtection middleware
+2018-05-15 17:24:01,099 INFO 61185 [egg-security] use xframe middleware
+2018-05-15 17:24:01,100 INFO 61185 [egg-security] use dta middleware
+2018-05-15 17:24:01,100 INFO 61185 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 17:24:01,114 INFO 61185 [egg:core] dump config after load, 9ms
+2018-05-15 17:24:01,127 INFO 61185 [egg-watcher:app] watcher start success
+2018-05-15 17:24:01,132 INFO 61185 [egg:core] dump config after ready, 3ms
+2018-05-15 17:24:29,888 INFO 61192 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 17:24:29,936 INFO 61192 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 17:24:29,936 INFO 61192 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 17:24:30,001 INFO 61192 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 17:24:30,005 INFO 61192 [egg-security] use csrf middleware
+2018-05-15 17:24:30,006 INFO 61192 [egg-security] use methodnoallow middleware
+2018-05-15 17:24:30,007 INFO 61192 [egg-security] use noopen middleware
+2018-05-15 17:24:30,008 INFO 61192 [egg-security] use nosniff middleware
+2018-05-15 17:24:30,009 INFO 61192 [egg-security] use xssProtection middleware
+2018-05-15 17:24:30,010 INFO 61192 [egg-security] use xframe middleware
+2018-05-15 17:24:30,010 INFO 61192 [egg-security] use dta middleware
+2018-05-15 17:24:30,010 INFO 61192 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 17:24:30,026 INFO 61192 [egg:core] dump config after load, 8ms
+2018-05-15 17:24:30,039 INFO 61192 [egg-watcher:app] watcher start success
+2018-05-15 17:24:30,043 INFO 61192 [egg:core] dump config after ready, 2ms
+2018-05-15 17:25:58,858 INFO 61213 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 17:25:58,907 INFO 61213 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 17:25:58,907 INFO 61213 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 17:25:58,962 INFO 61213 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 17:25:58,965 INFO 61213 [egg-security] use csrf middleware
+2018-05-15 17:25:58,966 INFO 61213 [egg-security] use methodnoallow middleware
+2018-05-15 17:25:58,966 INFO 61213 [egg-security] use noopen middleware
+2018-05-15 17:25:58,966 INFO 61213 [egg-security] use nosniff middleware
+2018-05-15 17:25:58,966 INFO 61213 [egg-security] use xssProtection middleware
+2018-05-15 17:25:58,967 INFO 61213 [egg-security] use xframe middleware
+2018-05-15 17:25:58,967 INFO 61213 [egg-security] use dta middleware
+2018-05-15 17:25:58,967 INFO 61213 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 17:25:58,981 INFO 61213 [egg:core] dump config after load, 8ms
+2018-05-15 17:25:58,993 INFO 61213 [egg-watcher:app] watcher start success
+2018-05-15 17:25:58,998 INFO 61213 [egg:core] dump config after ready, 3ms
+2018-05-15 17:26:28,605 INFO 61220 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 17:26:28,666 INFO 61220 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 17:26:28,666 INFO 61220 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 17:26:28,727 INFO 61220 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 17:26:28,729 INFO 61220 [egg-security] use csrf middleware
+2018-05-15 17:26:28,730 INFO 61220 [egg-security] use methodnoallow middleware
+2018-05-15 17:26:28,731 INFO 61220 [egg-security] use noopen middleware
+2018-05-15 17:26:28,732 INFO 61220 [egg-security] use nosniff middleware
+2018-05-15 17:26:28,733 INFO 61220 [egg-security] use xssProtection middleware
+2018-05-15 17:26:28,734 INFO 61220 [egg-security] use xframe middleware
+2018-05-15 17:26:28,734 INFO 61220 [egg-security] use dta middleware
+2018-05-15 17:26:28,734 INFO 61220 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 17:26:28,748 INFO 61220 [egg:core] dump config after load, 7ms
+2018-05-15 17:26:28,761 INFO 61220 [egg-watcher:app] watcher start success
+2018-05-15 17:26:28,765 INFO 61220 [egg:core] dump config after ready, 2ms
+2018-05-15 17:26:47,521 INFO 61378 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 17:26:47,570 INFO 61378 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 17:26:47,571 INFO 61378 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 17:26:47,649 INFO 61378 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 17:26:47,656 INFO 61378 [egg-security] use csrf middleware
+2018-05-15 17:26:47,657 INFO 61378 [egg-security] use methodnoallow middleware
+2018-05-15 17:26:47,658 INFO 61378 [egg-security] use noopen middleware
+2018-05-15 17:26:47,659 INFO 61378 [egg-security] use nosniff middleware
+2018-05-15 17:26:47,660 INFO 61378 [egg-security] use xssProtection middleware
+2018-05-15 17:26:47,660 INFO 61378 [egg-security] use xframe middleware
+2018-05-15 17:26:47,661 INFO 61378 [egg-security] use dta middleware
+2018-05-15 17:26:47,661 INFO 61378 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 17:26:47,709 INFO 61378 [egg:core] dump config after load, 35ms
+2018-05-15 17:26:47,767 INFO 61378 [egg-watcher:app] watcher start success
+2018-05-15 17:26:47,774 INFO 61378 [egg:core] dump config after ready, 4ms
+2018-05-15 17:35:16,090 INFO 61513 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 17:35:16,149 INFO 61513 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 17:35:16,149 INFO 61513 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 17:35:16,221 INFO 61513 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 17:35:16,224 INFO 61513 [egg-security] use csrf middleware
+2018-05-15 17:35:16,225 INFO 61513 [egg-security] use methodnoallow middleware
+2018-05-15 17:35:16,226 INFO 61513 [egg-security] use noopen middleware
+2018-05-15 17:35:16,227 INFO 61513 [egg-security] use nosniff middleware
+2018-05-15 17:35:16,227 INFO 61513 [egg-security] use xssProtection middleware
+2018-05-15 17:35:16,228 INFO 61513 [egg-security] use xframe middleware
+2018-05-15 17:35:16,229 INFO 61513 [egg-security] use dta middleware
+2018-05-15 17:35:16,229 INFO 61513 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 17:35:16,240 INFO 61513 [egg:core] dump config after load, 6ms
+2018-05-15 17:35:16,252 INFO 61513 [egg-watcher:app] watcher start success
+2018-05-15 17:35:16,257 INFO 61513 [egg:core] dump config after ready, 3ms
+2018-05-15 17:41:17,646 INFO 61748 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 17:41:17,705 INFO 61748 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 17:41:17,705 INFO 61748 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 17:41:17,764 INFO 61748 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 17:41:17,767 INFO 61748 [egg-security] use csrf middleware
+2018-05-15 17:41:17,768 INFO 61748 [egg-security] use methodnoallow middleware
+2018-05-15 17:41:17,769 INFO 61748 [egg-security] use noopen middleware
+2018-05-15 17:41:17,770 INFO 61748 [egg-security] use nosniff middleware
+2018-05-15 17:41:17,770 INFO 61748 [egg-security] use xssProtection middleware
+2018-05-15 17:41:17,771 INFO 61748 [egg-security] use xframe middleware
+2018-05-15 17:41:17,771 INFO 61748 [egg-security] use dta middleware
+2018-05-15 17:41:17,771 INFO 61748 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 17:41:17,785 INFO 61748 [egg:core] dump config after load, 8ms
+2018-05-15 17:41:17,802 INFO 61748 [egg-watcher:app] watcher start success
+2018-05-15 17:41:17,807 INFO 61748 [egg:core] dump config after ready, 3ms
+2018-05-15 17:41:58,466 INFO 61760 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 17:41:58,510 INFO 61760 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 17:41:58,510 INFO 61760 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 17:41:58,576 INFO 61760 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 17:41:58,579 INFO 61760 [egg-security] use csrf middleware
+2018-05-15 17:41:58,580 INFO 61760 [egg-security] use methodnoallow middleware
+2018-05-15 17:41:58,581 INFO 61760 [egg-security] use noopen middleware
+2018-05-15 17:41:58,582 INFO 61760 [egg-security] use nosniff middleware
+2018-05-15 17:41:58,582 INFO 61760 [egg-security] use xssProtection middleware
+2018-05-15 17:41:58,583 INFO 61760 [egg-security] use xframe middleware
+2018-05-15 17:41:58,583 INFO 61760 [egg-security] use dta middleware
+2018-05-15 17:41:58,584 INFO 61760 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 17:41:58,595 INFO 61760 [egg:core] dump config after load, 6ms
+2018-05-15 17:41:58,611 INFO 61760 [egg-watcher:app] watcher start success
+2018-05-15 17:41:58,617 INFO 61760 [egg:core] dump config after ready, 4ms
+2018-05-15 17:42:16,252 INFO 61765 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 17:42:16,309 INFO 61765 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 17:42:16,309 INFO 61765 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 17:42:16,372 INFO 61765 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 17:42:16,375 INFO 61765 [egg-security] use csrf middleware
+2018-05-15 17:42:16,377 INFO 61765 [egg-security] use methodnoallow middleware
+2018-05-15 17:42:16,377 INFO 61765 [egg-security] use noopen middleware
+2018-05-15 17:42:16,378 INFO 61765 [egg-security] use nosniff middleware
+2018-05-15 17:42:16,379 INFO 61765 [egg-security] use xssProtection middleware
+2018-05-15 17:42:16,379 INFO 61765 [egg-security] use xframe middleware
+2018-05-15 17:42:16,380 INFO 61765 [egg-security] use dta middleware
+2018-05-15 17:42:16,380 INFO 61765 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 17:42:16,395 INFO 61765 [egg:core] dump config after load, 8ms
+2018-05-15 17:42:16,408 INFO 61765 [egg-watcher:app] watcher start success
+2018-05-15 17:42:16,413 INFO 61765 [egg:core] dump config after ready, 3ms
+2018-05-15 17:42:19,502 INFO 61767 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 17:42:19,555 INFO 61767 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 17:42:19,555 INFO 61767 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 17:42:19,611 INFO 61767 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 17:42:19,614 INFO 61767 [egg-security] use csrf middleware
+2018-05-15 17:42:19,616 INFO 61767 [egg-security] use methodnoallow middleware
+2018-05-15 17:42:19,616 INFO 61767 [egg-security] use noopen middleware
+2018-05-15 17:42:19,616 INFO 61767 [egg-security] use nosniff middleware
+2018-05-15 17:42:19,617 INFO 61767 [egg-security] use xssProtection middleware
+2018-05-15 17:42:19,617 INFO 61767 [egg-security] use xframe middleware
+2018-05-15 17:42:19,617 INFO 61767 [egg-security] use dta middleware
+2018-05-15 17:42:19,617 INFO 61767 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 17:42:19,631 INFO 61767 [egg:core] dump config after load, 9ms
+2018-05-15 17:42:19,644 INFO 61767 [egg-watcher:app] watcher start success
+2018-05-15 17:42:19,652 INFO 61767 [egg:core] dump config after ready, 5ms
+2018-05-15 17:42:44,794 INFO 61773 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 17:42:44,837 INFO 61773 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 17:42:44,837 INFO 61773 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 17:42:44,888 INFO 61773 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 17:42:44,891 INFO 61773 [egg-security] use csrf middleware
+2018-05-15 17:42:44,891 INFO 61773 [egg-security] use methodnoallow middleware
+2018-05-15 17:42:44,891 INFO 61773 [egg-security] use noopen middleware
+2018-05-15 17:42:44,892 INFO 61773 [egg-security] use nosniff middleware
+2018-05-15 17:42:44,892 INFO 61773 [egg-security] use xssProtection middleware
+2018-05-15 17:42:44,892 INFO 61773 [egg-security] use xframe middleware
+2018-05-15 17:42:44,892 INFO 61773 [egg-security] use dta middleware
+2018-05-15 17:42:44,892 INFO 61773 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 17:42:44,904 INFO 61773 [egg:core] dump config after load, 6ms
+2018-05-15 17:42:44,918 INFO 61773 [egg-watcher:app] watcher start success
+2018-05-15 17:42:44,925 INFO 61773 [egg:core] dump config after ready, 5ms
+2018-05-15 17:42:46,963 INFO 61774 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 17:42:47,017 INFO 61774 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 17:42:47,017 INFO 61774 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 17:42:47,080 INFO 61774 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 17:42:47,082 INFO 61774 [egg-security] use csrf middleware
+2018-05-15 17:42:47,083 INFO 61774 [egg-security] use methodnoallow middleware
+2018-05-15 17:42:47,083 INFO 61774 [egg-security] use noopen middleware
+2018-05-15 17:42:47,084 INFO 61774 [egg-security] use nosniff middleware
+2018-05-15 17:42:47,084 INFO 61774 [egg-security] use xssProtection middleware
+2018-05-15 17:42:47,084 INFO 61774 [egg-security] use xframe middleware
+2018-05-15 17:42:47,085 INFO 61774 [egg-security] use dta middleware
+2018-05-15 17:42:47,085 INFO 61774 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 17:42:47,099 INFO 61774 [egg:core] dump config after load, 8ms
+2018-05-15 17:42:47,115 INFO 61774 [egg-watcher:app] watcher start success
+2018-05-15 17:42:47,122 INFO 61774 [egg:core] dump config after ready, 4ms
+2018-05-15 17:42:52,849 INFO 61778 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 17:42:52,895 INFO 61778 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 17:42:52,895 INFO 61778 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 17:42:52,944 INFO 61778 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 17:42:52,946 INFO 61778 [egg-security] use csrf middleware
+2018-05-15 17:42:52,947 INFO 61778 [egg-security] use methodnoallow middleware
+2018-05-15 17:42:52,947 INFO 61778 [egg-security] use noopen middleware
+2018-05-15 17:42:52,947 INFO 61778 [egg-security] use nosniff middleware
+2018-05-15 17:42:52,947 INFO 61778 [egg-security] use xssProtection middleware
+2018-05-15 17:42:52,948 INFO 61778 [egg-security] use xframe middleware
+2018-05-15 17:42:52,948 INFO 61778 [egg-security] use dta middleware
+2018-05-15 17:42:52,948 INFO 61778 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 17:42:52,962 INFO 61778 [egg:core] dump config after load, 9ms
+2018-05-15 17:42:52,978 INFO 61778 [egg-watcher:app] watcher start success
+2018-05-15 17:42:52,982 INFO 61778 [egg:core] dump config after ready, 3ms
+2018-05-15 17:43:01,910 INFO 61931 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 17:43:01,963 INFO 61931 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 17:43:01,963 INFO 61931 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 17:43:02,020 INFO 61931 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 17:43:02,022 INFO 61931 [egg-security] use csrf middleware
+2018-05-15 17:43:02,023 INFO 61931 [egg-security] use methodnoallow middleware
+2018-05-15 17:43:02,023 INFO 61931 [egg-security] use noopen middleware
+2018-05-15 17:43:02,023 INFO 61931 [egg-security] use nosniff middleware
+2018-05-15 17:43:02,023 INFO 61931 [egg-security] use xssProtection middleware
+2018-05-15 17:43:02,024 INFO 61931 [egg-security] use xframe middleware
+2018-05-15 17:43:02,024 INFO 61931 [egg-security] use dta middleware
+2018-05-15 17:43:02,024 INFO 61931 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 17:43:02,039 INFO 61931 [egg:core] dump config after load, 9ms
+2018-05-15 17:43:02,059 INFO 61931 [egg-watcher:app] watcher start success
+2018-05-15 17:43:02,066 INFO 61931 [egg:core] dump config after ready, 5ms
+2018-05-15 17:43:36,091 INFO 61941 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 17:43:36,143 INFO 61941 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 17:43:36,143 INFO 61941 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 17:43:36,211 INFO 61941 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 17:43:36,215 INFO 61941 [egg-security] use csrf middleware
+2018-05-15 17:43:36,217 INFO 61941 [egg-security] use methodnoallow middleware
+2018-05-15 17:43:36,217 INFO 61941 [egg-security] use noopen middleware
+2018-05-15 17:43:36,218 INFO 61941 [egg-security] use nosniff middleware
+2018-05-15 17:43:36,219 INFO 61941 [egg-security] use xssProtection middleware
+2018-05-15 17:43:36,220 INFO 61941 [egg-security] use xframe middleware
+2018-05-15 17:43:36,220 INFO 61941 [egg-security] use dta middleware
+2018-05-15 17:43:36,220 INFO 61941 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 17:43:36,238 INFO 61941 [egg:core] dump config after load, 11ms
+2018-05-15 17:43:36,255 INFO 61941 [egg-watcher:app] watcher start success
+2018-05-15 17:43:36,260 INFO 61941 [egg:core] dump config after ready, 3ms
+2018-05-15 17:43:38,051 INFO 61941 [egg-view-nunjucks] loading templates from ["/Users/hekai/egg-example/app/view"]
+2018-05-15 17:44:21,281 INFO 61957 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 17:44:21,328 INFO 61957 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 17:44:21,328 INFO 61957 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 17:44:21,379 INFO 61957 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 17:44:21,381 INFO 61957 [egg-security] use csrf middleware
+2018-05-15 17:44:21,382 INFO 61957 [egg-security] use methodnoallow middleware
+2018-05-15 17:44:21,382 INFO 61957 [egg-security] use noopen middleware
+2018-05-15 17:44:21,382 INFO 61957 [egg-security] use nosniff middleware
+2018-05-15 17:44:21,382 INFO 61957 [egg-security] use xssProtection middleware
+2018-05-15 17:44:21,383 INFO 61957 [egg-security] use xframe middleware
+2018-05-15 17:44:21,383 INFO 61957 [egg-security] use dta middleware
+2018-05-15 17:44:21,383 INFO 61957 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 17:44:21,398 INFO 61957 [egg:core] dump config after load, 10ms
+2018-05-15 17:44:21,418 INFO 61957 [egg-watcher:app] watcher start success
+2018-05-15 17:44:21,426 INFO 61957 [egg:core] dump config after ready, 6ms
+2018-05-15 17:44:49,051 INFO 61957 [egg-view-nunjucks] loading templates from ["/Users/hekai/egg-example/app/view"]
+2018-05-15 18:09:36,160 WARN 61957 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-05-15 18:21:34,674 INFO 63236 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 18:21:34,730 INFO 63236 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 18:21:34,730 INFO 63236 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 18:21:34,823 INFO 63236 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 18:21:34,828 INFO 63236 [egg-security] use csrf middleware
+2018-05-15 18:21:34,829 INFO 63236 [egg-security] use methodnoallow middleware
+2018-05-15 18:21:34,830 INFO 63236 [egg-security] use noopen middleware
+2018-05-15 18:21:34,830 INFO 63236 [egg-security] use nosniff middleware
+2018-05-15 18:21:34,831 INFO 63236 [egg-security] use xssProtection middleware
+2018-05-15 18:21:34,833 INFO 63236 [egg-security] use xframe middleware
+2018-05-15 18:21:34,834 INFO 63236 [egg-security] use dta middleware
+2018-05-15 18:21:34,834 INFO 63236 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 18:21:34,860 INFO 63236 [egg:core] dump config after load, 16ms
+2018-05-15 18:21:34,877 INFO 63236 [egg-watcher:app] watcher start success
+2018-05-15 18:21:34,884 INFO 63236 [egg:core] dump config after ready, 5ms
+2018-05-15 18:21:37,448 INFO 63238 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 18:21:37,528 INFO 63238 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 18:21:37,528 INFO 63238 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 18:21:37,585 INFO 63238 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 18:21:37,590 INFO 63238 [egg-security] use csrf middleware
+2018-05-15 18:21:37,591 INFO 63238 [egg-security] use methodnoallow middleware
+2018-05-15 18:21:37,591 INFO 63238 [egg-security] use noopen middleware
+2018-05-15 18:21:37,592 INFO 63238 [egg-security] use nosniff middleware
+2018-05-15 18:21:37,592 INFO 63238 [egg-security] use xssProtection middleware
+2018-05-15 18:21:37,592 INFO 63238 [egg-security] use xframe middleware
+2018-05-15 18:21:37,592 INFO 63238 [egg-security] use dta middleware
+2018-05-15 18:21:37,592 INFO 63238 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 18:21:37,605 INFO 63238 [egg:core] dump config after load, 9ms
+2018-05-15 18:21:37,623 INFO 63238 [egg-watcher:app] watcher start success
+2018-05-15 18:21:37,628 INFO 63238 [egg:core] dump config after ready, 4ms
+2018-05-15 18:22:42,729 INFO 63414 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 18:22:42,780 INFO 63414 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 18:22:42,780 INFO 63414 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 18:22:42,845 INFO 63414 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 18:22:42,848 INFO 63414 [egg-security] use csrf middleware
+2018-05-15 18:22:42,849 INFO 63414 [egg-security] use methodnoallow middleware
+2018-05-15 18:22:42,850 INFO 63414 [egg-security] use noopen middleware
+2018-05-15 18:22:42,851 INFO 63414 [egg-security] use nosniff middleware
+2018-05-15 18:22:42,852 INFO 63414 [egg-security] use xssProtection middleware
+2018-05-15 18:22:42,853 INFO 63414 [egg-security] use xframe middleware
+2018-05-15 18:22:42,854 INFO 63414 [egg-security] use dta middleware
+2018-05-15 18:22:42,854 INFO 63414 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 18:22:42,866 INFO 63414 [egg:core] dump config after load, 5ms
+2018-05-15 18:22:42,885 INFO 63414 [egg-watcher:app] watcher start success
+2018-05-15 18:22:42,893 INFO 63414 [egg:core] dump config after ready, 7ms
+2018-05-15 18:29:37,386 INFO 63509 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 18:29:37,448 INFO 63509 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 18:29:37,448 INFO 63509 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 18:29:37,501 INFO 63509 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 18:29:37,505 INFO 63509 [egg-security] use csrf middleware
+2018-05-15 18:29:37,507 INFO 63509 [egg-security] use methodnoallow middleware
+2018-05-15 18:29:37,507 INFO 63509 [egg-security] use noopen middleware
+2018-05-15 18:29:37,509 INFO 63509 [egg-security] use nosniff middleware
+2018-05-15 18:29:37,511 INFO 63509 [egg-security] use xssProtection middleware
+2018-05-15 18:29:37,512 INFO 63509 [egg-security] use xframe middleware
+2018-05-15 18:29:37,512 INFO 63509 [egg-security] use dta middleware
+2018-05-15 18:29:37,513 INFO 63509 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 18:29:37,536 INFO 63509 [egg:core] dump config after load, 16ms
+2018-05-15 18:29:37,571 INFO 63509 [egg-watcher:app] watcher start success
+2018-05-15 18:29:37,580 INFO 63509 [egg:core] dump config after ready, 6ms
+2018-05-15 18:30:37,959 INFO 63675 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 18:30:38,015 INFO 63675 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 18:30:38,016 INFO 63675 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 18:30:38,084 INFO 63675 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 18:30:38,088 INFO 63675 [egg-security] use csrf middleware
+2018-05-15 18:30:38,089 INFO 63675 [egg-security] use methodnoallow middleware
+2018-05-15 18:30:38,090 INFO 63675 [egg-security] use noopen middleware
+2018-05-15 18:30:38,091 INFO 63675 [egg-security] use nosniff middleware
+2018-05-15 18:30:38,092 INFO 63675 [egg-security] use xssProtection middleware
+2018-05-15 18:30:38,092 INFO 63675 [egg-security] use xframe middleware
+2018-05-15 18:30:38,093 INFO 63675 [egg-security] use dta middleware
+2018-05-15 18:30:38,093 INFO 63675 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 18:30:38,109 INFO 63675 [egg:core] dump config after load, 9ms
+2018-05-15 18:30:38,130 INFO 63675 [egg-watcher:app] watcher start success
+2018-05-15 18:30:38,135 INFO 63675 [egg:core] dump config after ready, 4ms
+2018-05-15 18:32:07,325 INFO 63696 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 18:32:07,372 INFO 63696 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 18:32:07,373 INFO 63696 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 18:32:07,437 INFO 63696 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 18:32:07,441 INFO 63696 [egg-security] use csrf middleware
+2018-05-15 18:32:07,442 INFO 63696 [egg-security] use methodnoallow middleware
+2018-05-15 18:32:07,443 INFO 63696 [egg-security] use noopen middleware
+2018-05-15 18:32:07,444 INFO 63696 [egg-security] use nosniff middleware
+2018-05-15 18:32:07,444 INFO 63696 [egg-security] use xssProtection middleware
+2018-05-15 18:32:07,445 INFO 63696 [egg-security] use xframe middleware
+2018-05-15 18:32:07,446 INFO 63696 [egg-security] use dta middleware
+2018-05-15 18:32:07,446 INFO 63696 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 18:32:07,462 INFO 63696 [egg:core] dump config after load, 8ms
+2018-05-15 18:32:07,479 INFO 63696 [egg-watcher:app] watcher start success
+2018-05-15 18:32:07,487 INFO 63696 [egg:core] dump config after ready, 6ms
+2018-05-15 18:32:16,586 INFO 63705 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 18:32:16,683 INFO 63705 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 18:32:16,683 INFO 63705 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 18:32:16,757 INFO 63705 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 18:32:16,760 INFO 63705 [egg-security] use csrf middleware
+2018-05-15 18:32:16,761 INFO 63705 [egg-security] use methodnoallow middleware
+2018-05-15 18:32:16,761 INFO 63705 [egg-security] use noopen middleware
+2018-05-15 18:32:16,762 INFO 63705 [egg-security] use nosniff middleware
+2018-05-15 18:32:16,763 INFO 63705 [egg-security] use xssProtection middleware
+2018-05-15 18:32:16,764 INFO 63705 [egg-security] use xframe middleware
+2018-05-15 18:32:16,764 INFO 63705 [egg-security] use dta middleware
+2018-05-15 18:32:16,764 INFO 63705 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 18:32:16,780 INFO 63705 [egg:core] dump config after load, 8ms
+2018-05-15 18:32:16,794 INFO 63705 [egg-watcher:app] watcher start success
+2018-05-15 18:32:16,802 INFO 63705 [egg:core] dump config after ready, 4ms
+2018-05-15 18:36:02,761 INFO 63811 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 18:36:02,862 INFO 63811 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 18:36:02,862 INFO 63811 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 18:36:02,939 INFO 63811 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 18:36:02,944 INFO 63811 [egg-security] use csrf middleware
+2018-05-15 18:36:02,945 INFO 63811 [egg-security] use methodnoallow middleware
+2018-05-15 18:36:02,947 INFO 63811 [egg-security] use noopen middleware
+2018-05-15 18:36:02,948 INFO 63811 [egg-security] use nosniff middleware
+2018-05-15 18:36:02,948 INFO 63811 [egg-security] use xssProtection middleware
+2018-05-15 18:36:02,949 INFO 63811 [egg-security] use xframe middleware
+2018-05-15 18:36:02,949 INFO 63811 [egg-security] use dta middleware
+2018-05-15 18:36:02,949 INFO 63811 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 18:36:02,972 INFO 63811 [egg:core] dump config after load, 14ms
+2018-05-15 18:36:02,996 INFO 63811 [egg-watcher:app] watcher start success
+2018-05-15 18:36:03,004 INFO 63811 [egg:core] dump config after ready, 5ms
+2018-05-15 18:36:19,230 INFO 63967 [egg:logger] init all loggers with options: {"dir":"/Users/hekai/egg-example/logs/egg-hk-test","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-hk-test-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-15 18:36:19,288 INFO 63967 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-15 18:36:19,288 INFO 63967 [egg-schedule]: register schedule /Users/hekai/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-15 18:36:19,344 INFO 63967 [egg-static] starting static serve /public/ -> /Users/hekai/egg-example/app/public
+2018-05-15 18:36:19,347 INFO 63967 [egg-security] use csrf middleware
+2018-05-15 18:36:19,347 INFO 63967 [egg-security] use methodnoallow middleware
+2018-05-15 18:36:19,348 INFO 63967 [egg-security] use noopen middleware
+2018-05-15 18:36:19,348 INFO 63967 [egg-security] use nosniff middleware
+2018-05-15 18:36:19,349 INFO 63967 [egg-security] use xssProtection middleware
+2018-05-15 18:36:19,350 INFO 63967 [egg-security] use xframe middleware
+2018-05-15 18:36:19,351 INFO 63967 [egg-security] use dta middleware
+2018-05-15 18:36:19,351 INFO 63967 [egg-security] compose 7 middlewares into one security middleware
+2018-05-15 18:36:19,363 INFO 63967 [egg:core] dump config after load, 7ms
+2018-05-15 18:36:19,392 INFO 63967 [egg-watcher:app] watcher start success
+2018-05-15 18:36:19,401 INFO 63967 [egg:core] dump config after ready, 7ms

@@ -1,0 +1,287 @@
+{
+  "keys": "/Users/hekai/egg-example/config/config.default.js",
+  "middleware": "/Users/hekai/egg-example/config/config.default.js",
+  "view": {
+    "defaultViewEngine": "/Users/hekai/egg-example/config/config.default.js",
+    "mapping": {
+      ".html": "/Users/hekai/egg-example/config/config.default.js"
+    },
+    "root": "/Users/hekai/egg-example/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/hekai/egg-example/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/hekai/egg-example/node_modules/egg-view/config/config.default.js"
+  },
+  "news": {
+    "pageSize": "/Users/hekai/egg-example/config/config.default.js",
+    "serverUrl": "/Users/hekai/egg-example/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/hekai/egg-example/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/hekai/egg-example/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/hekai/egg-example/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/hekai/egg-example/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/hekai/egg-example/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/hekai/egg-example/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/hekai/egg-example/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/hekai/egg-example/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/hekai/egg-example/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/hekai/egg-example/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/hekai/egg-example/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/hekai/egg-example/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/hekai/egg-example/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/hekai/egg-example/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/hekai/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/hekai/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/hekai/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/hekai/egg-example/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/hekai/egg-example/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/hekai/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/hekai/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/hekai/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/hekai/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/hekai/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/hekai/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/hekai/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/hekai/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/hekai/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/hekai/egg-example/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/hekai/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/hekai/egg-example/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/hekai/egg-example/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/hekai/egg-example/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/hekai/egg-example/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/hekai/egg-example/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/hekai/egg-example/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/hekai/egg-example/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/hekai/egg-example/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/hekai/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/hekai/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/hekai/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/hekai/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/hekai/egg-example/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/hekai/egg-example/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/hekai/egg-example/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/hekai/egg-example/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Users/hekai/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/hekai/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/hekai/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/hekai/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/hekai/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/hekai/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/hekai/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/hekai/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/hekai/egg-example/node_modules/egg-multipart/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/hekai/egg-example/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/hekai/egg-example/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/hekai/egg-example/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/hekai/egg-example/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/hekai/egg-example/node_modules/egg-development/config/config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/hekai/egg-example/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/hekai/egg-example/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/hekai/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/hekai/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/hekai/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/hekai/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/hekai/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/hekai/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/hekai/egg-example/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/hekai/egg-example/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/hekai/egg-example/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/hekai/egg-example/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/hekai/egg-example/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/hekai/egg-example/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/hekai/egg-example/node_modules/egg-static/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/Users/hekai/egg-example/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/hekai/egg-example/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/hekai/egg-example/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/hekai/egg-example/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/hekai/egg-example/node_modules/egg-view-nunjucks/config/config.local.js"
+  },
+  "env": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+  "name": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+    "version": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+    "description": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+    "private": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+      "stop": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+      "dev": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+      "debug": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+      "test": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+      "cov": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+      "lint": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+      "ci": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+      "autod": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+      "url": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+    "license": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+    "strict": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+      "depth": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+    "env": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+    "level": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/hekai/egg-example/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+    "logging": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+      "port": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/hekai/egg-example/node_modules/egg/config/config.default.js"
+}
